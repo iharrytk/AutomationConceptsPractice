@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-13T14:10:12 CDT" name="Default suite" finished-at="2024-09-13T14:10:20 CDT" duration-ms="7915">
+    <groups>
+    </groups>
+    <test started-at="2024-09-13T14:10:12 CDT" name="Default test" finished-at="2024-09-13T14:10:20 CDT" duration-ms="7915">
+      <class name="com.qa.automationconcepts.tests.EncapsulationLoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:12 CDT" name="setUp" finished-at="2024-09-13T14:10:16 CDT" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="titleTest()[pri:1, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:16 CDT" name="titleTest" finished-at="2024-09-13T14:10:16 CDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="doLoginTest(com.qa.automationconcepts.pojos.LoginPOJO)[pri:2, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:16 CDT" name="doLoginTest" data-provider="loginPageDataProvider" finished-at="2024-09-13T14:10:18 CDT" duration-ms="2024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginPOJO [username=haritha@gmail.com, password=haritha@2024]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method signature="doLoginTest(com.qa.automationconcepts.pojos.LoginPOJO)[pri:2, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:18 CDT" name="doLoginTest" data-provider="loginPageDataProvider" finished-at="2024-09-13T14:10:20 CDT" duration-ms="1989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginPOJO [username=jaya@gmail.com, password=jaya@2024]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:20 CDT" name="tearDown" finished-at="2024-09-13T14:10:20 CDT" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.automationconcepts.tests.EncapsulationLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
