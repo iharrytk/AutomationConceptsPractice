@@ -2,46 +2,53 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-13T14:10:12 CDT" name="Default suite" finished-at="2024-09-13T14:10:20 CDT" duration-ms="7915">
+  <suite started-at="2024-10-14T21:12:11 CDT" name="Cross Browser parallel testing concept" finished-at="2024-10-14T21:12:17 CDT" duration-ms="6004">
     <groups>
     </groups>
-    <test started-at="2024-09-13T14:10:12 CDT" name="Default test" finished-at="2024-09-13T14:10:20 CDT" duration-ms="7915">
-      <class name="com.qa.automationconcepts.tests.EncapsulationLoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:12 CDT" name="setUp" finished-at="2024-09-13T14:10:16 CDT" duration-ms="3666" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="titleTest()[pri:1, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:16 CDT" name="titleTest" finished-at="2024-09-13T14:10:16 CDT" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method signature="doLoginTest(com.qa.automationconcepts.pojos.LoginPOJO)[pri:2, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:16 CDT" name="doLoginTest" data-provider="loginPageDataProvider" finished-at="2024-09-13T14:10:18 CDT" duration-ms="2024" status="PASS">
+    <test started-at="2024-10-14T21:12:11 CDT" name="Cross Browser Parallel Test chrome" finished-at="2024-10-14T21:12:15 CDT" duration-ms="4191">
+      <class name="com.qa.automationconcepts.tests.CrossBrowserParallelTesting">
+        <test-method signature="doCrossBrowserParallelTest(java.lang.String)[pri:0, instance:com.qa.automationconcepts.tests.CrossBrowserParallelTesting@4b741d6d]" started-at="2024-10-14T21:12:11 CDT" name="doCrossBrowserParallelTest" finished-at="2024-10-14T21:12:15 CDT" duration-ms="4134" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[LoginPOJO [username=haritha@gmail.com, password=haritha@2024]]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doLoginTest -->
-        <test-method signature="doLoginTest(com.qa.automationconcepts.pojos.LoginPOJO)[pri:2, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:18 CDT" name="doLoginTest" data-provider="loginPageDataProvider" finished-at="2024-09-13T14:10:20 CDT" duration-ms="1989" status="PASS">
+        </test-method> <!-- doCrossBrowserParallelTest -->
+      </class> <!-- com.qa.automationconcepts.tests.CrossBrowserParallelTesting -->
+    </test> <!-- Cross Browser Parallel Test chrome -->
+    <test started-at="2024-10-14T21:12:11 CDT" name="Cross Browser Parallel Test edge" finished-at="2024-10-14T21:12:15 CDT" duration-ms="4534">
+      <class name="com.qa.automationconcepts.tests.CrossBrowserParallelTesting">
+        <test-method signature="doCrossBrowserParallelTest(java.lang.String)[pri:0, instance:com.qa.automationconcepts.tests.CrossBrowserParallelTesting@17fc391b]" started-at="2024-10-14T21:12:11 CDT" name="doCrossBrowserParallelTest" finished-at="2024-10-14T21:12:15 CDT" duration-ms="4480" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[LoginPOJO [username=jaya@gmail.com, password=jaya@2024]]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.automationconcepts.tests.EncapsulationLoginPageTest@5524cca1]" started-at="2024-09-13T14:10:20 CDT" name="tearDown" finished-at="2024-09-13T14:10:20 CDT" duration-ms="183" status="PASS">
+        </test-method> <!-- doCrossBrowserParallelTest -->
+      </class> <!-- com.qa.automationconcepts.tests.CrossBrowserParallelTesting -->
+    </test> <!-- Cross Browser Parallel Test edge -->
+    <test started-at="2024-10-14T21:12:11 CDT" name="Cross Browser Parallel Test firefox" finished-at="2024-10-14T21:12:17 CDT" duration-ms="6004">
+      <class name="com.qa.automationconcepts.tests.CrossBrowserParallelTesting">
+        <test-method signature="doCrossBrowserParallelTest(java.lang.String)[pri:0, instance:com.qa.automationconcepts.tests.CrossBrowserParallelTesting@609e8838]" started-at="2024-10-14T21:12:11 CDT" name="doCrossBrowserParallelTest" finished-at="2024-10-14T21:12:17 CDT" duration-ms="5951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.automationconcepts.tests.EncapsulationLoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- doCrossBrowserParallelTest -->
+      </class> <!-- com.qa.automationconcepts.tests.CrossBrowserParallelTesting -->
+    </test> <!-- Cross Browser Parallel Test firefox -->
+  </suite> <!-- Cross Browser parallel testing concept -->
 </testng-results>

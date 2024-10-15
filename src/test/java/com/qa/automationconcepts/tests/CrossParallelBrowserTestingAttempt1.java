@@ -12,8 +12,8 @@ import org.testng.annotations.Test;
 public class CrossParallelBrowserTestingAttempt1 {
 	@Parameters("browser")
 	@Test
-	public  void crossparallel(String nameofthebrowser) {
-		String browser="firefox";
+	public  void crossparallel(String browservalue) {
+		String browser=browservalue;
 		WebDriver driver=null;
 		//Cross Browser testing logic -Advantage of Top Casting
 		switch (browser.toLowerCase().trim()) {
@@ -36,7 +36,7 @@ public class CrossParallelBrowserTestingAttempt1 {
 		
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.com/");
-		driver.quit();
+		//driver.quit();
 	}
 
 }

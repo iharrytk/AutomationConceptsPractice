@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.automationconcepts.tests.EncapsulationLoginPageTest">
+      <class name="com.qa.automationconcepts.tests.CrossBrowserParallelTesting">
         <methods>
-          <include name="setUp"/>
-          <include name="doLogin"/>
-          <include name="tearDown"/>
+          <include name="doCrossBrowserParallelTest"/>
         </methods>
-      </class> <!-- com.qa.automationconcepts.tests.EncapsulationLoginPageTest -->
+      </class> <!-- com.qa.automationconcepts.tests.CrossBrowserParallelTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross Browser parallel testing concept" verbose="4" thread-count="3" parallel="tests">
+
+	
+	<test name="Cross Browser Parallel Test chrome">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.automationconcepts.tests.CrossBrowserParallelTesting" />
+		</classes>
+	</test>
+	
+	<test name="Cross Browser Parallel Test edge">
+	<parameter name="browser" value="edge" />
+		<classes>
+			<class name="com.qa.automationconcepts.tests.CrossBrowserParallelTesting" />
+		</classes>
+	</test>
+	
+	
+	<test name="Cross Browser Parallel Test firefox">
+	<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.qa.automationconcepts.tests.CrossBrowserParallelTesting" />
+		</classes>
+	</test>
+	
+	
+</suite>
